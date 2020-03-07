@@ -13,6 +13,8 @@ Also you can install without composer (for shared hosts). [Click here](https://g
 
 ## Example usage
 
+[+ Simple Downloader](https://github.com/Quiec/php-tidal/blob/master/examples/Downloader.php)
+
 ``` php
 <?php
 require_once "vendor/autoload.php";
