@@ -9,6 +9,7 @@ Install from [Composer](https://getcomposer.org/) using `composer`:
 ``` bash
 $ composer require quiec/php-tidal dev-master
 ```
+Also you can install without composer (for shared hosts). [Click here](https://github.com/Quiec/php-tidal/releases/download/1.0.0/tidalphp.zip) for download zip.
 
 ## Example usage
 
