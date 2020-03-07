@@ -1,0 +1,20 @@
+{
+    "name": "quiec/php-tidal",
+    "description": "Unofficial PHP API for TIDAL music streaming service",
+    "require": {
+        "guzzlehttp/guzzle": "^6.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yusuf Usta",
+            "email": "yusuf@quiec.tech"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload":{
+        "psr-4" : {
+            "Tidal\": "src/Tidal/"
+        }
+    }
+}
