@@ -18,7 +18,6 @@ class TidalAPI
 
     public function __construct()
     {
-        require 'vendor/autoload.php';
         $this->client = new Client();
     }
 

@@ -14,7 +14,7 @@
     "minimum-stability": "dev",
     "autoload":{
         "psr-4" : {
-            "Tidal\": "src/Tidal/"
+            "Tidal\\": "src/Tidal/"
         }
     }
 }

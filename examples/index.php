@@ -1,5 +1,5 @@
 <?php
-require __DIR__.'/src/Tidal/TidalAPI.php';
+require_once "vendor/autoload.php";
 
 use Tidal\TidalAPI;
 
