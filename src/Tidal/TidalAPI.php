@@ -43,8 +43,8 @@ class TidalAPI
         }
     }
  
-    public function search($query = NULL) {
-        return json_decode($this->sendRequest("search/tracks", ["sessionId" => $this->sessionId, "countryCode" => $this->countryCode, "limit" => 999, "query" => $query]), true)["items"];
+    public function search($field = "track", $query = NULL) {
+        return json_decode($this->sendRequest("search/" . $field . "s", ["sessionId" => $this->sessionId, "countryCode" => $this->countryCode, "limit" => 999, "query" => $query]), true)["items"];
     }
 
     private function sendRequest($Method, $Params, $Headers = NULL) {
