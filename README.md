@@ -7,7 +7,7 @@ Unofficial PHP API for TIDAL music streaming service.
 Install from [Composer](https://getcomposer.org/) using `composer`:
 
 ``` bash
-$ composer require quiec/php-tidal
+$ composer require quiec/php-tidal dev-master
 ```
 
 ## Example usage
