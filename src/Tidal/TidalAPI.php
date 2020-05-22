@@ -9,7 +9,7 @@ use GuzzleHttp\Client;
 class TidalAPI
 {
     const TIDAL_API_URL = "https://api.tidalhifi.com/v1/";
-    const TIDAL_API_KEY = "kgsOOmYk3zShYrNP";
+    const TIDAL_API_KEY = "Edit Please Here";
 
     public $sessionId;
     public $countryCode;
